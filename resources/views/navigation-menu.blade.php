@@ -18,7 +18,7 @@
             <ul class="space-y-3 my-8 flex-1">
                 <li>
                     <a href="javascript:void(0)"
-                        class="text-sm flex items-center text-[#007bff] border-r-[5px] border-[#077bff] bg-gray-100 px-8 py-4 transition-all">
+                        class=" @if(request()->routeIs('dashboard')) activate @else item @endif">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             class="w-[1.125rem] h-[1.125rem] mr-4" viewBox="0 0 512 512">
                             <path
@@ -30,7 +30,7 @@
                 </li>
                 <li>
                     <a href="javascript:void(0)"
-                        class="text-black text-sm flex items-center hover:text-[#007bff] hover:border-r-[5px] border-[#077bff] hover:bg-gray-100 px-8 py-4 transition-all">
+                        class="item">
 
                         <svg fill="currentColor" class="w-[1.5rem] h-[1.5rem] mr-4" version="1.1" id="Capa_1"
                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -50,7 +50,7 @@
                 </li>
                 <li>
                     <a href="javascript:void(0)"
-                        class="text-black text-sm flex items-center hover:text-[#007bff] hover:border-r-[5px] border-[#077bff] hover:bg-gray-100 px-8 py-4 transition-all">
+                        class="item">
 
                         <svg class="w-[1.5rem] h-[1.5rem] mr-4" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
                             fill="currentColor" stroke="#00000">
@@ -70,7 +70,7 @@
                 </li>
                 <li>
                     <a href="javascript:void(0)"
-                        class="text-black text-sm flex items-center hover:text-[#007bff] hover:border-r-[5px] border-[#077bff] hover:bg-gray-100 px-8 py-4 transition-all">
+                        class="item">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             class="w-[1.125rem] h-[1.125rem] mr-4" viewBox="0 0 16 16">
                             <path
@@ -80,19 +80,8 @@
                         <span>{{ __('Reports') }}</span>
                     </a>
                 </li>
-                <li>
-                    <a href="javascript:void(0)"
-                        class="text-black text-sm flex items-center hover:text-[#007bff] hover:border-r-[5px] border-[#077bff] hover:bg-gray-100 px-8 py-4 transition-all">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                            class="w-[1.125rem] h-[1.125rem] mr-4" viewBox="0 0 20 20">
-                            <path
-                                d="M18 2H2C.9 2 0 2.9 0 4v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM2 4h16v.51c-1.55 1.21-4.58 3.49-7.36 4.91-.94.5-2.34 1.1-3.28 1.1-.94 0-2.34-.6-3.28-1.1C4.58 8 1.55 5.72 0 4.51V4zm7 6c1.23 0 3.07-.82 4.5-1.63 2.43-1.3 5.07-3.31 6.5-4.4V16H2V4.04c1.43 1.1 4.07 3.1 6.5 4.4C7.93 9.18 9.77 10 11 10zm0 0"
-                                data-original="#000000" />
-                        </svg>
-                        <span>Sales</span>
-                    </a>
-                </li>
             </ul>
+
         </div>
     </nav>
 

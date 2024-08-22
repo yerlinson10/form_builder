@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-[x-cloak] {
-    display: none;
+nav li .item
+{
+    @apply text-black text-sm flex items-center hover:text-[#007bff] hover:border-r-[5px] border-[#077bff] hover:bg-gray-100 px-8 py-4 transition-all;
+}
+nav li .activate
+{
+    @apply text-sm flex items-center text-[#007bff] border-r-[5px] border-[#077bff] bg-gray-100 px-8 py-4 transition-all;
 }
