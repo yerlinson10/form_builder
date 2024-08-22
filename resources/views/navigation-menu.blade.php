@@ -12,7 +12,7 @@
         class="bg-white shadow-xl h-screen fixed top-0 left-0 w-[250px] py-6 font-[sans-serif] overflow-auto transform md:translate-x-0 transition-transform duration-300 z-50">
         <div class="relative flex flex-col h-full">
             <a href="javascript:void(0)" class="text-center">
-                {{-- <img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-[160px] inline' /> --}}
+                <img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-[160px] inline' />
             </a>
 
             <ul class="space-y-3 my-8 flex-1">
@@ -53,7 +53,7 @@
                         class="text-black text-sm flex items-center hover:text-[#007bff] hover:border-r-[5px] border-[#077bff] hover:bg-gray-100 px-8 py-4 transition-all">
 
                         <svg class="w-[1.5rem] h-[1.5rem] mr-4" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor" stroke="#ffffff">
+                            fill="currentColor" stroke="#00000">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
@@ -93,13 +93,6 @@
                     </a>
                 </li>
             </ul>
-
-            <div class="py-4">
-                <a href="javascript:void(0)" class="block text-gray-400 text-sm text-center">
-                    <span class="text-gray-500">© 2024</span>
-                    sdsd
-                </a>
-            </div>
         </div>
     </nav>
 
